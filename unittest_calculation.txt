@@ -1,0 +1,17 @@
+import pandas as pd
+stu={'unit test-1':[4,2,1,5,6],'unit test-2':[8,4,6,12,2]}
+stu1={'unit test-1':[5,13,16,5,9],'unit test-2':[7,6,5,4,3]}
+ds=pd.DataFrame(stu)
+ds1=pd.DataFrame(stu1)
+print('sub')
+print(ds.sub(ds1))
+print('rsub')
+print(ds.rsub(ds1))
+print('add')
+print(ds.add(ds1))
+print('radd')
+print(ds.radd(ds1))
+print('multiplication')
+print(ds.mul(ds1))
+print('division')
+print(ds.div(ds1))

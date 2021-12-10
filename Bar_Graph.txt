@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt 
+import numpy as np
+
+
+y=[20,30,40]
+x=range(len(y))
+plt.bar(x,y,width=.5,color='red')
+plt.show()
